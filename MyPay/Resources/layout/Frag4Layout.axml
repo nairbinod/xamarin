@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<!-- everything you already have -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="@android:color/background_light">
+        <TextView
+            android:text="Calculated Paycheck"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HeaderTextView2"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dip"
+            android:layout_marginTop="12dip"
+            android:layout_marginBottom="4dip" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:id="@+id/view3"
+            android:background="@android:color/holo_blue_light" />
+        <TextView
+            android:text="CTC"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/lbl1"
+            android:textAllCaps="false"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#666" />
+        <EditText
+            android:inputType="number"
+            android:text="99999"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/viewCtc"
+            android:textColor="@android:color/holo_orange_dark"
+            android:background="@drawable/textboxstyle"
+            android:gravity="right"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:selectAllOnFocus="true" />
+        <TextView
+            android:text="PF Amount(12%)"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/lbl3"
+            android:textAllCaps="false"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#666" />
+        <EditText
+            android:inputType="number"
+            android:text="99999"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/viewPf"
+            android:textColor="@android:color/holo_orange_dark"
+            android:background="@drawable/textboxstyle"
+            android:gravity="right"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:selectAllOnFocus="true" />
+        <TextView
+            android:text="Taxable Income"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/lbl4"
+            android:textAllCaps="false"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#666" />
+        <EditText
+            android:inputType="number"
+            android:text="99999"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/viewTaxableIncome"
+            android:textColor="@android:color/holo_orange_dark"
+            android:background="@drawable/textboxstyle"
+            android:gravity="right"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:selectAllOnFocus="true" />
+        <TextView
+            android:text="Total Tax"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/lbl4"
+            android:textAllCaps="false"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#666" />
+        <EditText
+            android:inputType="number"
+            android:text="99999"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/viewTotalTax"
+            android:textColor="@android:color/holo_orange_dark"
+            android:background="@drawable/textboxstyle"
+            android:gravity="right"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:selectAllOnFocus="true" />
+        <TextView
+            android:text="Bonus(Variable Pay 12%)"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/lbl2"
+            android:textAllCaps="false"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#666" />
+        <EditText
+            android:inputType="number"
+            android:text="99999"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/viewVariable"
+            android:textColor="@android:color/holo_orange_dark"
+            android:background="@drawable/textboxstyle"
+            android:gravity="right"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:selectAllOnFocus="true" />
+        <TextView
+            android:text="Take Home Pay"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/lbl5"
+            android:textAllCaps="false"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#666" />
+        <EditText
+            android:inputType="number"
+            android:text="99999"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/viewPaycheck"
+            android:textColor="@android:color/holo_orange_dark"
+            android:background="@drawable/textboxstyle"
+            android:gravity="right"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="40dp"
+            android:selectAllOnFocus="true" />
+    </LinearLayout>
+</ScrollView>

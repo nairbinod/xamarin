@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPay", "MyPay.csproj", "{8FA75A2B-0B0E-43C2-AB0C-30666CF24810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPayLib", "MyPayLib\MyPayLib.csproj", "{3FE9C72A-2600-42B6-85BE-B7117C310018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleListView", "..\SampleListView\SampleListView\SampleListView.csproj", "{D0C932C3-73BE-49A2-8024-78BBC5099405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FE9C72A-2600-42B6-85BE-B7117C310018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE9C72A-2600-42B6-85BE-B7117C310018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE9C72A-2600-42B6-85BE-B7117C310018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE9C72A-2600-42B6-85BE-B7117C310018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA75A2B-0B0E-43C2-AB0C-30666CF24810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA75A2B-0B0E-43C2-AB0C-30666CF24810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA75A2B-0B0E-43C2-AB0C-30666CF24810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA75A2B-0B0E-43C2-AB0C-30666CF24810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C932C3-73BE-49A2-8024-78BBC5099405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C932C3-73BE-49A2-8024-78BBC5099405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C932C3-73BE-49A2-8024-78BBC5099405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C932C3-73BE-49A2-8024-78BBC5099405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

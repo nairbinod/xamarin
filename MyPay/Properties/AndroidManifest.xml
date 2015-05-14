@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.kindable.mypay" android:versionName="1.2" android:versionCode="6">
+	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="16" />
+	<application android:icon="@drawable/ic_action_pie_chart" android:label="MyPay"></application>
+</manifest>

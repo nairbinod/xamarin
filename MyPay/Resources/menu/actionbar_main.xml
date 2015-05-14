@@ -1,0 +1,6 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/menu"
+        android:showAsAction="always"
+        android:title="ver 1.0512"
+        android:icon="@drawable/ic_action_overflow"/>
+</menu>

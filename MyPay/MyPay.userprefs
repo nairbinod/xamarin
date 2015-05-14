@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="MyPay.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="MainActivity.cs" Line="1" Column="1" />
+      <File FileName="MyPayLib\MyPay.cs" Line="264" Column="1" />
+      <File FileName="MyPayLib\StringExtension.cs" Line="1" Column="1" />
+      <File FileName="PropertyViewAdapter.cs" Line="1" Column="1" />
+      <File FileName="Properties\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="MyPayLib\HRA.cs" Line="1" Column="1" />
+      <File FileName="Resources\menu\actionbar_main.xml" Line="1" Column="1" />
+      <File FileName="MyPayLib\Properties\AssemblyInfo.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\u0157898\Dropbox\Projects\Xamarin\MyPay\MyPayLib\MyPay.cs" line="136" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MyPay AndroidDesignerPreferredDevice="Nexus 4" />
+  <DisabledProjects>
+    <String>..\SlidingTabLayoutTutorial-Jamie\SlidingTabLayoutTutorial\SlidingTabLayoutTutorial\SlidingTabLayoutTutorial.csproj</String>
+  </DisabledProjects>
+</Properties>
